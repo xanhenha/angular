@@ -1,10 +1,15 @@
 ## Backend
 
-- npm init -y (cria o package.json)
-- npm i json-server (inclui o json-server no package)
+- `npm init -y` (cria o package.json)
+- `npm i json-server` (inclui o json-server no package)
 - criar o arquivo de dados `db.json` manualmente (json de dados)
-- criar o script que starta o server `"scripts": { "start": "json-server --watch db.json --port 3001"}`
-- npm start ( starta o DB Server na porta 3001 )
+- criar o script que starta o server 
+```javascript
+"scripts": {
+	"start": "json-server --watch db.json --port 3001"
+}
+```
+- `npm start` ( starta o DB Server na porta 3001 )
 
 ## Frontend
 
@@ -18,6 +23,7 @@
 - Outro terminal para rodar os comandos Angular
 
 ## Dependences
+#### Usando o Angular Material UI
 - frontend (tema para angular)
   - `ng add @angular/material`
   - Primeiro tema - Dark
@@ -27,4 +33,6 @@
 
 ## Comandos Angular
 - gerar componentes - `ng generate component $path` - alias `ng g c  $path` - Path ex: _components/template/header_
-  - cria automaticamente as referencias, basta adicionar a tag app no `app.component.html` - Ex <app-header></app-header>
+  - cria automaticamente as referencias, basta adicionar a tag app no `app.component.html` - Ex ```
+<app-header></app-header>
+```
