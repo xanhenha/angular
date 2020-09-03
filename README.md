@@ -45,3 +45,22 @@
 
 ## Services
 Componentes que usam da mesma logica entre si.
+
+## Rotas
+Em rotas importamos os componentes que serao carregados de acordo com o path
+Ex:
+
+- localhost/ - Home do projeto `./views/home/home.component`
+- localhost/product - Pagina de produtos `./views/product-crud/product-crud.component`
+		import { HomeComponent } from './views/home/home.component';
+		import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+		const routes: Routes = [
+			{
+				path: "",
+				component: HomeComponent
+			},
+			{
+				path: "products",
+				component: ProductCrudComponent
+			}
+		];
