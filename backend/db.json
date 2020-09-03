@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta Azul",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Borracha preta",
+      "price": 0.65
+    },
+    {
+      "id": 3,
+      "name": "RTX 2080ti",
+      "price": 12000.99
+    }
+  ]
+}
