@@ -33,6 +33,4 @@
 
 ## Comandos Angular
 - gerar componentes - `ng generate component $path` - alias `ng g c  $path` - Path ex: _components/template/header_
-  - cria automaticamente as referencias, basta adicionar a tag app no `app.component.html` - Ex ```
-<app-header></app-header>
-```
+  - cria automaticamente as referencias, basta adicionar a tag app no `app.component.html` - Ex `<app-header></app-header>`
