@@ -39,7 +39,9 @@
 - Attribute Directives - altera o atributo do elemento (decorator @Directive) "aparencia"
 - Structural Dircetives - altera o layout, adicionando e removendo elementos dom (ex: *ngIf / *ngFor)
 
-
 ## Binding
 - One way - [value]="nome" - nome: string
 - Two way - [(ngModel)]="nome" - nome: string
+
+## Services
+Componentes que usam da mesma logica entre si.
