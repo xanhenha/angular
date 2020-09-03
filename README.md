@@ -34,3 +34,12 @@
 ## Comandos Angular
 - gerar componentes - `ng generate component $path` - alias `ng g c  $path` - Path ex: _components/template/header_
   - cria automaticamente as referencias, basta adicionar a tag app no `app.component.html` - Ex `<app-header></app-header>`
+
+## Diretivas
+- Attribute Directives - altera o atributo do elemento (decorator @Directive) "aparencia"
+- Structural Dircetives - altera o layout, adicionando e removendo elementos dom (ex: *ngIf / *ngFor)
+
+
+## Binding
+- One way - [value]="nome" - nome: string
+- Two way - [(ngModel)]="nome" - nome: string
