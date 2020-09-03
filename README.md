@@ -16,3 +16,15 @@
 - Rodar o Backend (`npm start` diretorio backend)
 - Rodar o Angular (`npm start` diretorio frontend)
 - Outro terminal para rodar os comandos Angular
+
+## Dependences
+- frontend (tema para angular)
+  - `ng add @angular/material`
+  - Primeiro tema - Dark
+  - Tipografia - Global sim
+  - animacoes - sim
+
+
+## Comandos Angular
+- gerar componentes - `ng generate component $path` - alias `ng g c  $path` - Path ex: _components/template/header_
+  - cria automaticamente as referencias, basta adicionar a tag app no `app.component.html` - Ex <app-header></app-header>
