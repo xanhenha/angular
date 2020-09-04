@@ -14,6 +14,21 @@
       "id": 3,
       "name": "RTX 2080ti",
       "price": 12000.99
+    },
+    {
+      "name": "Chocolate",
+      "price": "25.21",
+      "id": 4
+    },
+    {
+      "name": "Notebook",
+      "price": "5000.35",
+      "id": 5
+    },
+    {
+      "name": "Monitor",
+      "price": "1564.99",
+      "id": 6
     }
   ]
 }
